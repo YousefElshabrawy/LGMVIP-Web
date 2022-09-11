@@ -1,0 +1,16 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  &:not(:last-child) {
+    border-bottom: 1px solid rgb(192, 189, 189);
+  }
+  & > div {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+}
