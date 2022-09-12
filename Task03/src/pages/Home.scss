@@ -1,0 +1,12 @@
+.home {
+  width: 100%;
+  max-width: 102.4rem;
+  margin: auto;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  gap: 10rem;
+  h2 {
+    margin-bottom: 3rem;
+  }
+}

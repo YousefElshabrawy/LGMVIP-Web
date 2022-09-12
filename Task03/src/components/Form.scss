@@ -1,0 +1,41 @@
+.form {
+  border-radius: 1rem;
+  padding: 2rem;
+  border: 1px solid rgb(192, 189, 189);
+  &__group,
+  &__actions {
+    padding: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+    input {
+      padding: 0.6rem;
+      border-radius: 1rem;
+      border: 1px solid rgb(192, 189, 189);
+    }
+    button {
+      padding: 1rem 2rem;
+      background-color: #0f766e;
+      color: white;
+      font-size: inherit;
+      border: none;
+      &:hover {
+        background-color: #0d9488;
+      }
+    }
+  }
+  fieldset {
+    border-radius: 1rem;
+    border: 1px solid rgb(192, 189, 189);
+    div {
+      padding: 0.6rem;
+      input {
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+}
